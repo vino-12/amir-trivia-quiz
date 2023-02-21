@@ -9,19 +9,20 @@ session_start();
 // Hilfswerkzeuge laden
 include 'tools.php';
 
-if (isset($_POST["lastPageID"])) {
+if (isset($_SESSION["quiz"])) $quiz = $_SESSION["quiz"];
+else $quiz = null;
 
-    // Hole den Namen der letzen Seite aus $_POST "lastPageID".
-    $lastPageID = $_POST["lastPageID"];
+prettyPrint($quiz, '$quiz =');
 
-    // Speichere alle Daten des letzen Posts mit den Namen $lastPageID in der Session.
-    $_SESSION[$lastPageID] = $_POST;
+if (isset($_POST["lastQuestionIndex"])){
+    $lastQuestion = intval($_POST["lastQuestionIndex"]);
+}
+else {
+    $lastQuestionIndex = -1;
 }
 
-// DEVONLY: Gib die aktuelle $_SESSION in die Seite aus.
-prettyPrint($_SESSION);
+prettyPrint($lastQuestionIndex, '$lastQuestionIndex =');
 
-/* Während der Entwicklung braucht man das zum anzeigen 
-auf der Feedback Seite, danach bitte auskommentieren oder löschen. */
+
 
 ?>

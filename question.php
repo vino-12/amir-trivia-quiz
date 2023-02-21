@@ -28,22 +28,10 @@
         <div class="col-sm-8">
             <!-- Fragestellung -->
             <h7>Frage <?php echo ($currentQuestionIndex + 1); ?> von <?php echo $quiz["questionNum"]; ?></h7>
-            <!-- <h3>Wieviele Beine hat eine Spinne</h3> -->
+            <h3>Wieviele Beine hat eine Spinne</h3>
             <h3><?php echo $question["question_text"]; ?></h3>
 
             <form id="quiz-form" action="question.php" method="post" onsubmit="return navigate('next');">
-                
-                <!-- HTML Vorlage
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="answer" id="answer-0" value="0">
-                    <label class="form-check-label" for="single-choice-0">6</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="answer" id="answer-1" value="1">
-                    <label class="form-check-label" for="single-choice-1">8</label>
-                </div>
-                -->
-
                 <?php
                     // Generiere Antwort-Radio-Buttons mit Beschriftung
 
