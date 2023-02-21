@@ -89,7 +89,7 @@ max-width: 10%;
     <link href="/css/sticky-footer-navbar.css" rel="stylesheet">
     
   </head>
-  <body class="d-flex flex-column h-100 bg-info">
+  <body class="d-flex flex-column h-100 bg-success">
 
     
 

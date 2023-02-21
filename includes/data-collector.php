@@ -4,6 +4,7 @@ session_start();
 
     include "includes/tools.php";
     include "includes/db.php";
+    
        
    
 echo "hallo";

@@ -114,7 +114,7 @@
   <form id="quiz" action="questions.php" method="post"  class="md">
 
   <select class="form-select" aria-label="Select category" name="topic">
-  <option selected>Select category</option>
+  <option selected>sports</option>
   <option value="gen-knowledge">General Knowledge</option>
   <option value="technology">Technology</option>
   <option value="astronautics">Astronautics</option>
