@@ -150,7 +150,7 @@
 </main>
 
 <footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
+  <div class="fluid-container">
 
     <span class="text-muted">Trivia Quiz</span>
   </div>
