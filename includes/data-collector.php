@@ -2,8 +2,8 @@
 
 session_start();
 
-    include "tools.php";
-    include "connector.php";
+    include "includes/tools.php";
+    include "includes/db.php";
        
    
 echo "hallo";

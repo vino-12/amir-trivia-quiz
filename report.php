@@ -1,5 +1,5 @@
 <?php
-   include "./scripts/php_includes/data-collector.php";
+   include "includes/data-collector.php";
 ?>
 <!doctype html>
 <html lang="en" class="h-100">

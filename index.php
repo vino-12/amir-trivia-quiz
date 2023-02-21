@@ -1,5 +1,5 @@
 <?php
-   include "./scripts/php_includes/data-collector.php";
+   include "includes/data-collector.php";
 ?>
 <!doctype html>
 <html lang="en" class="h-100">
@@ -109,9 +109,7 @@
 
 <main class="flex-shrink-0">
 
-  <div class="">
-
-  <h1 class="mt-5">Trivia Quiz</h1>
+  <div class="mt-5">
 
   <form id="quiz" action="questions.php" method="post"  class="md">
 
