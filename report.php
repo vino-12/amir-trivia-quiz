@@ -148,7 +148,7 @@ $maxPoints = $_SESSION["quiz"]["questionNum"];
     
     </div>
     <div class="col">
-      <img src="images/logo_quiz.svg" class="img-fluid" alt="logo">
+      <img src="images/logo_quiz.jpg" class="img-fluid" alt="logo">
     </div>
   </div>
 

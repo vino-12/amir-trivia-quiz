@@ -1,16 +1,11 @@
-.body {
-    background-color: aquamarine;
-    color: darkslategray;
-}
-
 main > .container {
     padding: 60px 15px 0;
   } 
   
   .body {
-    background-color: 007fff;
-  }
-  
+    background-color: rgba(0,255,0,0.3);
+    
+}
   .img-fluid {
   
     max-width: 10%;

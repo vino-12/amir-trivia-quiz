@@ -1,5 +1,5 @@
 <?php
-   include "./scripts/php_includes/data-collector.php";
+   include "includes/data-collector.php";
 ?>
 <!doctype html>
 <html lang="en" class="h-100">
@@ -46,7 +46,7 @@
 
       .b-example-divider {
         height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
+        background-color: rgba(192,192,192,0.3);
         border: solid rgba(0, 0, 0, .15);
         border-width: 1px 0;
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
@@ -86,7 +86,7 @@
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
   </head>
-  <body class="d-flex flex-column h-100 bg-info">
+  <body class="d-flex flex-column h-100 bg-success">
 
     <?php
     echo "Hello, we are starting to work with Databases and PHP PDO!"; 
@@ -222,7 +222,7 @@ $correct = $question["correct"];
 </main>
 
 <footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
+  <div class="fluid-container">
 
   
     <span class="text-muted">Trivia Quiz <?php echo $quiz["topic"] ?> Questions</span>
